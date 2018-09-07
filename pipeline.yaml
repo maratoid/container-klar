@@ -1,0 +1,7 @@
+type: chart
+rootfs:
+- image: samsung_cnct/klar
+  buildArgs:
+  - arg: KLAR_VERSION
+    value: "2.3.0"
+  context: klar
