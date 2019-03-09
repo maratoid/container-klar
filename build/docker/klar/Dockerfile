@@ -1,6 +1,6 @@
 FROM buildpack-deps as builder
 
-ARG KLAR_VERSION=2.3.0
+ARG KLAR_VERSION=2.4.0
 RUN curl -L https://github.com/optiopay/klar/releases/download/v${KLAR_VERSION}/klar-${KLAR_VERSION}-linux-amd64 -o /klar \
 	&& chmod +x /klar
 
